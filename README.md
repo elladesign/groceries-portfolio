@@ -4,8 +4,6 @@ MealCart is a product case study for a budget-aware grocery and meal planning ap
 
 The app concept helps a household set a grocery budget, use pantry items first, generate practical meal plans, and prepare a grocery cart handoff for checkout with a supported grocery provider.
 
-This public repository is intentionally a **portfolio and product documentation repo**, not the private application source code. It focuses on the product strategy, architecture, usability lessons, technical tradeoffs, and next build steps.
-
 ![MealCart product screens](./assets/screenshots/overview.png)
 
 ## Problem
