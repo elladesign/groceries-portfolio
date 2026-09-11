@@ -6,6 +6,8 @@ The app concept helps a household set a grocery budget, use pantry items first, 
 
 This public repository is intentionally a **portfolio and product documentation repo**, not the private application source code. It focuses on the product strategy, architecture, usability lessons, technical tradeoffs, and next build steps.
 
+![MealCart product screens](./assets/screenshots/overview.png)
+
 ## Problem
 
 Weekly grocery planning is fragmented.
@@ -40,6 +42,14 @@ The current MVP direction is:
 - [Lessons Learned](./lessons-learned.md)
 - [Product Roadmap](./roadmap.md)
 - [Privacy And Security Notes](./privacy-and-security.md)
+
+## Demo Screens
+
+These screens use sanitized sample data and generated food imagery. They are included to show the intended product direction without exposing private app source code, pantry photos, user accounts, or backend details.
+
+| Plan start | Pantry | Meal plan | Shopping list |
+| --- | --- | --- | --- |
+| ![Plan start screen](./assets/screenshots/01-plan-start.png) | ![Pantry screen](./assets/screenshots/02-pantry.png) | ![Meal plan screen](./assets/screenshots/03-meal-plan.png) | ![Shopping list screen](./assets/screenshots/04-shopping-list.png) |
 
 ## What Is Not Included
 
