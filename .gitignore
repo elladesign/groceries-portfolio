@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.token
+*.kroger_user_token
+*.pem
+*.p8
+*.key
+*.mobileprovision
+DerivedData/
+build/
