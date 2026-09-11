@@ -4,7 +4,19 @@ MealCart is a product case study for a budget-aware grocery and meal planning ap
 
 The app concept helps a household set a grocery budget, use pantry items first, generate practical meal plans, and prepare a grocery cart handoff for checkout with a supported grocery provider.
 
+This public repository is intentionally a **portfolio and product documentation repo**, not the private application source code. It focuses on the product strategy, architecture, usability lessons, technical tradeoffs, and next build steps.
+
 ![MealCart product screens](./assets/screenshots/overview.png)
+
+## AI-Powered Features
+
+MealCart explores how AI can reduce the most tedious parts of grocery planning:
+
+- Photo-based pantry scanning to detect grocery items from pantry or fridge photos.
+- Pantry-aware recipe generation that starts with ingredients already at home.
+- Budget-aware meal planning that recommends meals before the cart is built.
+- AI-assisted substitutions and lower-cost swaps when a plan may go over budget.
+- Grocery cart preparation so users can review and finish checkout with the provider.
 
 ## Problem
 
@@ -28,7 +40,9 @@ The current MVP direction is:
 
 - Native iOS experience for personal and family meal planning.
 - Budget-first recipe recommendations.
+- AI-powered pantry scanning from photos, with user review before items are saved.
 - Pantry-aware planning so existing ingredients reduce grocery spend.
+- AI-assisted dish generation for quick single-meal ideas from what is already at home.
 - Grocery-provider handoff instead of fully automated checkout.
 - Clear final review before the user buys anything.
 - Privacy-conscious architecture that keeps provider tokens and AI keys out of the app.
@@ -66,6 +80,8 @@ This public repo does not include:
 MealCart demonstrates product thinking across:
 
 - AI-assisted meal planning
+- AI-powered pantry photo recognition
+- AI recipe and dish generation
 - OCR and vision-based pantry recognition
 - grocery API feasibility
 - OAuth and cart handoff constraints
